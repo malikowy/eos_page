@@ -7,7 +7,61 @@
 @media only screen and (min-width: 40.063em) {}
 /* Large screens*/
 /* min-width 1025px, large screens */
-@media only screen and (min-width: 64.063em) {}
+@media only screen and (min-width: 64.063em) {
+	body {
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	nav {
+		font-weight: bold;
+		font-size  : 12px;
+	}
+
+	.work__mouse {
+		font-weight: normal;
+		font-size  : 9px;
+	}
+
+	.about__container-left__wrap {
+		h1 {
+			font-weight: bold;
+			font-size  : 62px;
+			line-height: 4.4vw;
+		}
+
+		p {
+			font-weight: bold;
+			font-size  : 12px;
+			line-height: 1.8vw;
+		}
+
+		button {
+			font-weight: bold;
+			font-size  : 12px;
+		}
+	}
+
+	.news__container-right__text {
+		color: $color-white;
+
+		h2 {
+			font-size  : 26px;
+			font-weight: bold;
+		}
+
+		p {
+			font-weight: bold;
+			font-size  : 12px;
+			line-height: 22px;
+		}
+
+		button {
+			font-weight: bold;
+			font-size  : 12px;
+			color      : $color-white;
+		}
+	}
+}
 /* XLarge screens*/
 /* min-width 1441px, xlarge screens */
 @media only screen and (min-width: 90.063em) {}
