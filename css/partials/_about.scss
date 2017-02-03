@@ -1,4 +1,4 @@
-/* _buttons.scss */
+/* _about.scss */
 /* Small screens*/
 /* min-width: 320px, mobile-only screens */
 @media only screen {}
@@ -8,14 +8,37 @@
 /* Large screens*/
 /* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) {
-	button {
-		border-color    : white;
-		border-width    : 3px;
-		background-color: transparent;
-		padding         : 15px 22px;
-		border-style    : solid;
-		text-transform  : uppercase;
-		font-weight     : bold;
+	.about {
+		height  : 45vw;
+		display : -webkit-box;
+		display : -ms-flexbox;
+		overflow: hidden;
+
+		&__container-left {
+			background-color: $color-blue;
+			width           : 25%;
+			height          : 100%;
+
+			&__wrap {
+				padding: 0 20px;
+			}
+		}
+
+		&__container-right {
+			width : 75%;
+			height: 100%;
+			font  : 0/0 a;
+
+			img {
+				display: inline-block;
+				height : 50%;
+				width  : 50%;
+			}
+
+			img:last-child {
+				width: 100%;
+			}
+		}
 	}
 }
 /* XLarge screens*/

@@ -7,7 +7,55 @@
 @media only screen and (min-width: 40.063em) {}
 /* Large screens*/
 /* min-width 1025px, large screens */
-@media only screen and (min-width: 64.063em) {}
+@media only screen and (min-width: 64.063em) {
+	.header {
+		position        : absolute;
+		width           : 100%;
+		height          : 45px;
+		display         : -webkit-box;
+		display         : -ms-flexbox;
+		display         : flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack   : justify;
+		justify-content : space-between;
+		top             : 4.7vw;
+		color           : $color-white;
+
+		&__logo {
+			max-width  : 45px;
+			max-height : 45px;
+			margin-left: 9.7vw;
+		}
+
+		&__nav {
+			ul {
+				list-style-type: none;
+				display        : -webkit-box;
+				display        : -ms-flexbox;
+				display        : flex;
+				padding        : 0;
+				margin-right   : 9.7vw;
+
+				li {
+					margin-left : 15px;
+					margin-right: 15px;
+					text-align  : center;
+
+					a {
+						display        : block;
+						color          : $color-white;
+						text-decoration: none;
+
+						&:hover {
+							color          : $color-blue;
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+}
 /* XLarge screens*/
 /* min-width 1441px, xlarge screens */
 @media only screen and (min-width: 90.063em) {}
