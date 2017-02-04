@@ -13,10 +13,10 @@
 		background-position: center;
 		background-size    : cover;
 		background-repeat  : no-repeat;
-		height             : 44vw;
+		height             : 37.5rem;
 
 		&__text {
-			max-width        : 65vw;
+			max-width        : 46rem;
 			-webkit-transform: translate(-50%, -50%);
 			transform        : translate(-50%, -50%);
 			position         : absolute;
@@ -29,9 +29,11 @@
 			top       : 80%;
 			color     : $color-white;
 			text-align: center;
+			width     : 10rem;
+			margin    : 0 auto;
 
 			img {
-				max-width: 11px;
+				max-width: 0.75rem;
 			}
 		}
 	}

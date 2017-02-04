@@ -9,7 +9,7 @@
 /* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) {
 	.news {
-		height : 25vw;
+		height : 25.5rem;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -22,10 +22,10 @@
 			display: flex;
 
 			img {
-				max-width          : 21vw;
+				max-width          : 21rem;
 				-ms-flex-item-align: end;
 				align-self         : flex-end;
-				left               : 10vw;
+				left               : 4.25rem;
 				position           : relative;
 			}
 		}
@@ -36,9 +36,14 @@
 			height          : 100%;
 
 			&__text {
-				max-width  : 370px;
-				margin-left: 175px;
-				margin-top : 100px;
+				max-width  : 23.125rem;
+				margin-left: 11rem;
+				margin-top : 6.25rem;
+			}
+
+			button {
+				margin-top   : 2.75rem;
+				margin-bottom: 5.375rem;
 			}
 		}
 	}
